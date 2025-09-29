@@ -50,6 +50,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 btnBorrar.addEventListener('click', () => {
-    localStorage.removeItem('cursos');
+    localStorage.removeItem('curso');
     mensaje.textContent = "Bienvenido curso indefinido";
 });
